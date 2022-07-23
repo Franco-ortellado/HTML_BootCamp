@@ -1,0 +1,13 @@
+button.boton::before{
+    content: "Pasa por arriva";
+}
+
+button.boton:hover{
+    color: white;
+    background-color: green;
+}
+
+button.boton::before{
+    content: "Hecho!";
+}
+
