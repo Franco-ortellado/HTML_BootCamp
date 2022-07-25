@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600&family=Ubuntu:wght@300;400;500;700&display=swap');
+
+*{
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    background-color: #161717;
+}
+
+.container{
+    margin: auto;
+    display: flex;
+    flex-direction: column; /*el eje y se convierte en el eje pricipal*/
+    align-items: center;
+    justify-content: center;
+    gap: 30px; /*espacio entre las lineas*/
+    width: 450px;
+}
+
+.google-btn{
+    background-color: #1B73E9;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 2px;
+}
+
+.buttons{
+    align-self: flex-start;
+    display: flex;
+    gap: 20px;
+}
+
+.google-btn span{
+    background-color: #1B73E9;
+    padding: 2px;
+    height: 10px;
+}
+
+.google-btn:hover{
+    opacity: .7;
+    cursor: pointer;
+}
+
+.google-btn picture{
+    width: 35px;
+    height: 35px;
+    background-color: white;
+    border-radius: 2px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.google-btn picture img{
+    width: 75%;
+    display: flex;
+}
+
+.google-btn span{
+    color: white;
+    font-weight: 500;
+    padding: 15px;
+
+}
+.twitter-btn{
+    color: rgb(133, 129, 129);
+    background-color: #eee;
+    border: none;
+    width: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.twitter-btn:hover{
+    background-color: #ddd;
+    opacity: .7;
+}
+
+.twitter-btn picture{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.twitter-btn picture img{
+    width: 35px;
+    height: 35px;
+    background-color: #0A92E3;
+}
+
+.separator{
+    display: flex;
+    width: 100%;
+    gap: 15px;
+}
+
+.separator hr{
+    flex-grow: 1;
+    border: none;
+    border-top: 1px solid #ccc;
+}
+
+.separator span{
+    color: #848688;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 30px;
+    
+}
+
+.section-input{
+    width: 100%;
+    gap: 30px;
+}
+
+label{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+label span{
+    font-weight: 700;
+}
+
+.section-input label input{
+    width: 90%;
+    background-color: #212121;
+    border:none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 14pt;
+}
+
+label input{
+    width: 100%;
+    background-color: #212121;
+    border:none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 14pt;
+    transition: background-color 0.2s , boder 0.2s ,box-shadow 0.2s;
+}
+
+label input:hover{
+    background-color: #454045;
+    border: solid 1px #d6d8db;
+    box-shadow: 0 0 10px rgba(161, 148, 161, 0.2);
+}
+
+label input:focus{
+    background-color: white;
+    border: solid 1px #d6d8db;
+    box-shadow: 0 0 10px rgba(161, 148, 161, 0.2);
+}
+
+.checkbox-label{
+    display: flex;
+    flex-direction: row;
+}
+
+.checkbox-label input[type="checkbox"]{
+    width: 20px;
+}
+
+.checkbox-label span{
+    font-weight: 400;
+}
+
+.submit-btn{
+    background-color: #EB4D89;
+    color: white;
+    font-weight: 500;
+    font-size: 14pt;
+    text-align: center;
+    padding: 10px;
+    border:none;
+    border-radius: 10px;
+    cursor: pointer;
+}
